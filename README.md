@@ -1,6 +1,8 @@
 
 # Food Wastage recommendation system
 
+**Problem Discription with valid solution**
+
 According to the problem we have decided to make an web based application where there is different options are given to select if you are the consumer
       (user) or if you are the donor both have to do registration according to the choose domain. Basically our application is for NGO’s and other people can also
       use it. In our application there are different items are given according to variety in food. We have built a recommender system for the consumer based on the

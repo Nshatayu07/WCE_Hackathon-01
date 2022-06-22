@@ -21,9 +21,84 @@
             background-repeat: no-repeat;
             background-position: center;
             background-attachment: fixed;
-            padding: 20px;
+            /* padding: 20px; */
             overflow-x: hidden;
         }
+
+        /* .wow{
+			background-color: #ffd700;
+		}
+		.main10{
+			width: 500px;
+			margin: 50px auto;
+			border-radius: 10px;
+			border: 5px solid #dc143c;
+			border-left: 40px solid #dc143c;
+			box-shadow: 1px 2px 10px #555;
+		}
+		.info10{
+			width: 100%;
+			background-color: #dc143c;
+			padding: 7px;
+			text-shadow: 1px 1px 1px #222;
+			color: #fff;
+			font-size: 20px;
+		}
+		.form-box{
+			padding: 20px;
+			background-color: #eee;
+		}
+		label{
+			color: navy;
+			font-size: 18px;
+		}
+		.inp,.msg-box{
+			width: 100%;
+			padding: 10px;
+			margin-top: 4px;
+			margin-bottom: 5px;
+			border-radius: 5px;
+			border: 2px solid #dc143c;
+			font-weight: bold;
+			color: #dc143c;
+			border-right: 15px solid #dc143c;
+			border-left: 15px solid #dc143c;
+			resize: none;
+		}
+		.msg-box{
+			height: 80px;
+		}
+		.inp:focus,.msg-box:focus{
+			outline: none;
+			border: 2px solid navy;
+			border-right: 15px solid navy;
+			border-left: 15px solid navy;
+		}
+		.sub-btn{
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			margin-top: 5px;
+			border: none;
+			background: linear-gradient(#dc143c,#800000);
+			cursor: pointer;
+			color: #fff;
+			font-size: 20px;
+			text-shadow: 1px 1px 1px #444;
+		}
+		.sub-btn:hover{
+			background: linear-gradient(#800000,#dc143c);
+			opacity: 0.8;
+			transition: all ease-out 0.2s;
+		}
+		.sub-btn:focus{
+			outline: none;
+		}
+		@media(max-width: 720px){
+			.main{
+				width: 90%;
+			}
+		} */
     </style>
 </head>
 
@@ -104,7 +179,11 @@
 
             </div>
         </div>
+
+
+
         <div class="feedback">
+
             <div class="container3">
                 <div class="from-container3">
 
@@ -152,6 +231,8 @@
             </div>
 
         </div>
+        
+
         <div class="chat-bar-collapsible">
             <button id="chat-button" type="button" class="collapsible">Chat with me!
                 <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
@@ -193,6 +274,33 @@
             </div>
 
         </div> -->
+
+
+        <script>
+
+            const changing = document.querySelector('#bnt1');
+            changing.addEventListener('click',
+                () => {
+                    const Changed = document.getElementById('heading');
+                    Changed.innerHTML = "Spread the cheer anytime of the year Get in the mood to donate food.No tricks, just treats! Give something good to eat! Donate and make someone feel great!Save the country by feeding the hungry";
+                });
+    
+    
+            const chan = document.querySelector('#bnt2');
+            chan.addEventListener('click',
+                () => {
+                    const Changed = document.getElementById('heading');
+                    Changed.innerHTML = "According to the problem above we have decided to make an web based application where there is different options are given to select if you are the consumer (user) or if you are the donor both. ";
+                });
+    
+    
+            const Changed = document.querySelector('#bnt3');
+            Changed.addEventListener('click',
+                () => {
+                    const Changed = document.getElementById('heading');
+                    Changed.innerHTML = "Continuously exploring how to solve the hunger problem, the organization saves the lives of children and their families through detection, prevention, and treatment, particularly after a disaster strikes.";
+                });
+        </script>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="static/scripts/responses.js"></script>

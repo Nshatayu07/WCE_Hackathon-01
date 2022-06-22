@@ -9,20 +9,31 @@ According to the problem we have decided to make an web based application where 
       related to our website they can get answer there and we are also using filtration to check the food quality.
 
 
-
-
 ## Discription
 
 **Recommendation engine** - In order to control the food wastage we have built the recommendation engine using item based collaborative filtering to recoomend the items which expire early and more in consumption.
 
 **Dashboard** - dashboard for data analysis where we are showing analysis of data on daily basis for food consumed/donated per day.
 
+**NGO’s : We wish to work with* :*
+Some NGO's Given below with respected mail id.
+Diksha Foundation - DIKSHAFOUNDATION2012@GMAIL.COM
+Aanand Multipurpose Community Devolopment Society - surenbabar@yahoo.co.in
+Adarsh Shaikshanik V Bahuuddeshiya Sanstha - vsshinde@nccs.res.in
+Belief Chritable Trust Dudhgaon - ashish198881@yahoo.com
+Dr Shivajirao Kadam Foundation - amarsuja@yahoo.com
+Atpadi Taluka Gramin Vikas Sanstha - ujpatil@gmail.com
+Sampada Grameen Mahila Sanstha Sangram - info@sangram.org
+Lions Club Care Foundation Charitable Trust Sangli - lionseyehospital.sangli@gmail.com
+Bapuji Charitable Trust Sangli - hathayogidrhemantsangli@gmail.com
+Aakar Sevabhavi Santha Sangli - ujwala_tirodkar@rediffmail.com
 
 ## Features
 
 - The food we are providing won’t be of more than two days.
 - What kind of food is being wasted and how to regulate it.
 - Analysis of the success of the recommender system.
+- As user fill the donor/consumer form the NGO's will get the mail notification and will contact particular donor and consumer.
 
 ## Installation
 
@@ -49,9 +60,9 @@ According to the problem we have decided to make an web based application where 
 
 --> Choose your domain(consumer/Donor).
 
---> If your are a donor then it will redirect you to a Donor page, fill the required details reagarding the items which you want to donate.
+--> If your are a donor then it will redirect you to a log in page after that it will direct donor to a donor page after that, fill the required details reagarding the items which you want to donate.
 
---> If your are a consumer then it will redirect you to a Consumer page, where consumer will be able to see the items with their expiry date.
+--> If your are a consumer then it will redirect you to a login page after sign in consumer will direct to Consumer page, where consumer will be able to see the items with their expiry date.
 
 --> In order to control the food wastage we have built the recommendation engine using item based collaborative filtering to recoomend the items which expire 
 early and more in consumption.

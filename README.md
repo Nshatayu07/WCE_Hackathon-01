@@ -12,10 +12,22 @@ According to the problem we have decided to make an web based application where 
 
 
 ## Discription
+##"This is where the recommendation system comes"##
+--> In part in order to control the foodwastage, we have built recommendation engine using 
+itemitem based collaborative filtering to recommend the items which expire early and are more 
+in consumption.The items which we see on the screen are the items which are recommended by 
+recommendation system engine and these items are filtered based on their expiry date and the 
+consumption.
 
-**Recommendation engine** - In order to control the food wastage we have built the recommendation engine using item based collaborative filtering to recoomend the items which expire early and more in consumption.
+--> In this dashboard we are focusing mainly on the inside food meter shows the wastage 
+of food on daily basis and the ideal view of the consumers will help the engine to see the area 
+of self improvement.We have also shown the type of food preferred both by the donor and the consumer.
 
-**Dashboard** - dashboard for data analysis where we are showing analysis of data on daily basis for food consumed/donated per day.
+--> We give the donor a list of items to select from based on previous
+ donations.We ask him to share all the necessary details about his donation and push his donation in our inventory.
+ 
+-->We strive to effectively reduce the food waste based on our recommended system and data analysis approach.
+
 
 **NGO’s : We wish to work with* :*
 Some NGO's Given below with respected mail id.
